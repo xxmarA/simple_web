@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+.container {
+    padding: 0 2em;
+    background-color:rgba(234, 232, 232, 0.984);
+
+}
+
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-navigation-left{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.top-navigation-links{
+    display: flex;
+    gap: 2.5em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+    font-weight: bold;
+    font-size:large;
+    
+}
+
+.top-navigation-right{
+    display: flex;
+    align-items: center;
+   
+}
+
+.top-navigation-right a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.right-profile {
+    width: 65px;
+    height: 65px;
+}
+
+.outline{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-template-areas: 10px;
+    padding: 1rem;  
+   
+}
+.outline2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-template-areas: 10px;
+    padding: 1rem;  
+}
+
+.grid {
+    display: grid;
+    border: 3px solid rgb(5, 72, 47);
+    margin:1rem 0;
+
+}
+
+.header h2{
+    display: flex;
+    align-items: center;
+}
+.top-navigation-right button {
+    border: 1px solid black;
+    background-color: white;
+    height: 60px;
+    padding: 1em;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.grid img {
+width: 100%;
+aspect-ratio: 1/1;
+object-fit: cover;
+
+}
+
+.grid2 {
+    border: 3px solid rgb(5, 72, 47)
+}
+
+.grid2 img {
+    width: 100%;
+
+}
+
+.grid-content {
+    align-self: end;
+    margin: .5rem;
+    color: black;
+    
+   
+}
+
+.grid-content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    margin: 15px;
+}
